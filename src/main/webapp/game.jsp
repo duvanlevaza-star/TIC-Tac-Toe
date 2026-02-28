@@ -33,7 +33,7 @@
 </table>
 
 <c:if test="${winner != null}">
-<h2>${winner} won!</h2>
+<h2>${winner} gano!</h2>
 <a href="index.jsp">Play again</a>
 </c:if>
 

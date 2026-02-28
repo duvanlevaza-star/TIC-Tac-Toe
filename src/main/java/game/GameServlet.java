@@ -38,7 +38,7 @@ public class GameServlet extends HttpServlet {
 
         if (winner != null) {
             request.setAttribute("winner",
-                winner == GameBean.GamePlayer.USER ? "You" : "Computer");
+                winner == GameBean.GamePlayer.USER ? "Jugador" : "Computador");
         }
 
         request.getRequestDispatcher("/game.jsp")
