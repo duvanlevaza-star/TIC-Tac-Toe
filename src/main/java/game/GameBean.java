@@ -7,7 +7,7 @@ import java.util.Random;
 
 public class GameBean implements Serializable {
 
-    private static final int GRID_SIZE = 4;
+    private static final int GRID_SIZE = 3;
 
     public enum GameState { NULL, O, X }
 
